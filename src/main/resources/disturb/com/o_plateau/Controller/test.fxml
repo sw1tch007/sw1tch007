@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="disturb.com.o_plateau.Controller.ControllerPersonne">
+
+    <ListView fx:id="listView" prefHeight="200.0" prefWidth="300.0" />
+
+    <!-- Ajout du bouton -->
+    <Button text="Afficher la liste" onAction="#Afficher" layoutY="210.0" />
+</AnchorPane>
